@@ -2,8 +2,8 @@ type User={
     name:string;
     age:number;
     address:string;
-    street?:string;
-    block?:string;
+    street?:string|number;
+    block?:string|number;
     
 }
 const user:User={
@@ -18,4 +18,4 @@ function login(userdata:User):User
     return userdata;
 }
 //console.log(login(user))
-console.log({name:"saad waheed",age:30,address:"khayaban sir syed rwl",block:"4B"})
+console.log({name:"saad waheed",age:30,address:"khayaban sir syed rwl",block:"4B",street:"sds"})
