@@ -1,0 +1,21 @@
+type User={
+    name:string;
+    age:number;
+    address:string;
+    street?:string;
+    block?:string;
+    
+}
+const user:User={
+    name:'saad',
+    age:29,
+    address:"khayaban sir syed",
+    street:"23"
+}
+function login(userdata:User):User
+{
+    //return "login" shoud be return user tpe e.g name,age,address....
+    return userdata;
+}
+//console.log(login(user))
+console.log({name:"saad waheed",age:30,address:"khayaban sir syed rwl",block:"4B"})
